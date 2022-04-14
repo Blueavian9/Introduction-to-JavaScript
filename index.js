@@ -20,7 +20,8 @@ Do the following:
    HINT: no function required
 */
 
-
+let votingAge = 18;
+console.log(true);
 
 /*
 Task 1b - Values (not auto tested)
@@ -34,6 +35,12 @@ Do the following:
    HINT: no function required
 */
 
+let firstThing = 21;
+let secondThing = 5;
+if (firstThing === secondThing) {
+  firstThing = 5;
+}
+console.log(firstThing);
 
 
 
@@ -49,7 +56,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+let string = "1999";
+let conversion = parseInt(string);
+console.log(conversion);
 
 
 /*
@@ -61,8 +70,8 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+  return a * b;
 }
 
 
@@ -77,8 +86,8 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(age){
+  return age * 7;
 }
 
 
